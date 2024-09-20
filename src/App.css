@@ -7,3 +7,20 @@
   min-height: 65vh;
   display: flex;
 }
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 5px;
+}
+
+li:hover {
+  border-radius: 5px;
+  background-color: rgb(232, 232, 232);
+}
+
+.tree_main {
+  cursor: pointer;
+}

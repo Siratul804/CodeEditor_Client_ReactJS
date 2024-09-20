@@ -83,7 +83,37 @@ function App() {
           </div>
           <div className="editor">
             {selectedFile && <p>{selectedFile.replaceAll("/", " > ")}</p>}
-            <AceEditor value={code} onChange={(e) => setCode(e)} />
+            <AceEditor
+              fontSize={14}
+              lineHeight={19}
+              showPrintMargin={true}
+              showGutter={true}
+              highlightActiveLine={true}
+              value={code}
+              style={{ width: "110vh" }}
+              onChange={(e) => setCode(e)}
+              setOptions={{
+                enableBasicAutocompletion: true,
+                enableLiveAutocompletion: true,
+                enableSnippets: true,
+                showLineNumbers: true,
+                tabSize: 2,
+              }}
+            />
+          </div>
+          <div
+            style={{
+              padding: "35px",
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <img
+              src="https://media.tenor.com/azZCJ2YpsGgAAAAi/programming.gif"
+              alt=""
+              height="auto"
+              width="300vh"
+            />
           </div>
         </div>
         <div className="terminal-container">
