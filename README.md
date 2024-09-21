@@ -11,7 +11,7 @@ This Cloud IDE is built using Node.js, React.js, and Socket.IO to provide a real
 
 | Feature                      | Description                                   |
 |------------------------------|-----------------------------------------------|
-| **Real-time Collaboration** | Multiple users can code together in real-time, enhancing team productivity.       |
+| **Real-time Collaboration** | Multiple users can code together in real-time, enhancing team productivity.|
 | **Live Preview**                    | Instant code execution and live preview for faster feedback loops.|
 | **Scalable and Flexible**               | Designed to scale, offering a responsive and user-friendly interface.|
   
@@ -19,7 +19,7 @@ This Cloud IDE is built using Node.js, React.js, and Socket.IO to provide a real
 
 ## Technologies
 - React.js
-- Node.js
+- Node.js (https://github.com/Siratul804/could-ide-server)
 - Socket.io
   
 
