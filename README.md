@@ -105,11 +105,6 @@ This Cloud IDE is built using Node.js, React.js, and Socket.IO to provide a real
 ## Terminal Syntax 
 
 ```bash
- import { Terminal as XTerminal } from "@xterm/xterm";
-import { useEffect, useRef } from "react";
-import "@xterm/xterm/css/xterm.css";
-
-import socket from "../socket";
 
 function Terminal() {
   const terminalRef = useRef();
@@ -134,7 +129,6 @@ function Terminal() {
   return <div ref={terminalRef} id="terminal" />;
 }
 
-export default Terminal;
 ```
 
 
