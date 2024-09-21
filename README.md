@@ -3,7 +3,7 @@
 This Cloud IDE is built using Node.js, React.js, and Socket.IO to provide a real-time, collaborative development environment. It allows users to write, edit, and run code directly in the cloud, offering a seamless experience for remote development.
 
 <p align="center">
-  <img src="public/myide.png" alt="ide" width="300"/>
+  <img src="public/myide.png" alt="ide" width="500"/>
 </p>
 
 ## Features
